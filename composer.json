@@ -8,5 +8,10 @@
             "name": "Pierre-Yves Guerder"
         }
     ],
+    "scripts": {
+        "post-update-cmd": [
+            "echo 'Hi!'"
+        ]
+    },
     "require": {}
 }
