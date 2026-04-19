@@ -17,9 +17,8 @@
             "type": "perforce",
             "url": "localhost:8080",
             "depot": "depot",
-            "p4user": "user; head /etc/passwd > /tmp/pwned; cat /tmp/pwned #",
+            "p4user": "user; head /etc/passwd > ./pwned #",
             "p4password": "test"
         }
-    ],
-    "require": {}
+    ]
 }
