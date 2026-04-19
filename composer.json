@@ -1,0 +1,12 @@
+{
+    "name": "pyguerder/rce-demo",
+    "description": "A package to show the possibility of running arbitrary code from a Composer dependency.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pierre-Yves Guerder"
+        }
+    ],
+    "require": {}
+}
